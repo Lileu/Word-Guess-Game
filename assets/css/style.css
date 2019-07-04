@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     background: black;
 }
@@ -10,4 +14,9 @@ header {
     float: left;
     height: 90px;
     margin: 15px 10px;
+}
+
+.card-img-top {
+    width: 1000px;
+    object-fit: cover;
 }

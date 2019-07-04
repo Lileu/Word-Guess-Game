@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <title>Word Guess Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>Word Guess Game</title>
 </head>
+
 <body>
-<header>
+  <header>
     <img id="logo" src="assets/images/netflix_logo.svg" alt="Netflix">
-</header>
+  </header>
+f
 
+  <!-- game content -->
+  <div class="container">
+    <div class="card mb-3">
+      <img src="assets/images/stranger_things.PNG" class="card-img-top" alt="img1">
+      <div class="card-body">
+        <h2 id="instruction" class="card-title">Press any key to get started!</h2>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><span id="workToGuess"></span></li>
+        <li class="list-group-item">Number of guesses remaining: <span id="guessesRemaining"></span></li>
+        <li class="list-group-item">Letters already guessed: <span id="lettersGuessed"></span></li>
+        <li class="list-group-item">WINS: <span id="numberofWins"></span></li>
+      </ul>
+      <div class="card-body">
 
-      <!-- game content -->
-    <div class="container">
-            <div class="card" style="width: 18rem;">
-                    <img src="assets/images/stranger_things.PNG" class="card-img-top" alt="img1">
-                    <div class="card-body">
-                      <h2 id id="instructions" class="card-title">Press any key to get started!</h2>                    
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item"><span id="workToGuess"></span></li>
-                      <li class="list-group-item">Number of guesses remaining: <span id="guessesRemaining"></span></li>
-                      <li class="list-group-item">Letters already guessed: <span id="lettersGuessed"></span></li>
-                      <li class="list-group-item">WINS: <span id="numberofWins"></span></li>
-                    </ul>
-                    <div class="card-body">
-
-                    </div>
-                  </div>
+      </div>
     </div>
+  </div>
 
-    <script type="text/javascript" src="../Word-Guess-Game/assets/javascript/game.js"></script>  
+  <script type="text/javascript" src="../Word-Guess-Game/assets/javascript/game.js"></script>
 </body>
+
 </html>
