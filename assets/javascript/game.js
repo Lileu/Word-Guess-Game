@@ -20,7 +20,7 @@ var game = {
     isInWord: false, // is the guessed letter in the word
     blanks: 0, //unguessed letters
     lettersAndBlanks: [], //unguessed and guessed letters in the word
-    correctAudio: new Audio("./assets/audio/netflix_opening-63348138-4a91-4e7a-9c80-3932576af4bc.mp3")
+    correctAudio: new Audio("./assets/audio/netflix_opening-63348138-4a91-4e7a-9c80-3932576af4bc.mp3"),
 
 
     // METHODS
